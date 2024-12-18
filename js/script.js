@@ -40,6 +40,7 @@ for (let i = 1; i <= 100; i++) {
     //     console.log(messaggio, i);
     // }
 
+    // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
     // SE il numero è un multiplo di 3 stampo "Fizz"
     if (multTre) {
         // console.log(messaggio + "Fizz");
@@ -50,8 +51,6 @@ for (let i = 1; i <= 100; i++) {
         // console.log(messaggio + "Buzz");
         messaggio += "Buzz"
 
-     // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
-
      // ALTRIMENTI stampo i numeri normalmente
     } else if (!multTre) {
         messaggio += i;
@@ -59,7 +58,3 @@ for (let i = 1; i <= 100; i++) {
 
     console.log(messaggio);
 }
-    
-    
-    
-    
