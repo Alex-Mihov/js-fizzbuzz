@@ -13,17 +13,53 @@
 // ragioniamo  sul possibile refactoring, quindi ottimizzazione possibile,
 // sia del codice come performance, ma anche, se non soprattutto come leggibilità e mantenibilità. :genio_uomo:
 
+let multTre, multCinque, messaggio;
+
+
 // stampiamo i valori da 1 a 100 
-for (let i = 0; i <= 100; i++) {
-    console.log("il valore di i è: ", i)
+for (let i = 1; i <= 100; i++) {
+    multTre = i % 3 === 0;
+    multCinque = i % 5 === 0;
+    messaggio = "il valore di i è: ";
+    
+    // if (multTre) {
+        // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
+    //     if(multCinque) console.log(messaggio + "FizzBuzz"); 
+        
+        // SE il numero è un multiplo di 3 stampo "Fizz"
+    //     else console.log(messaggio + "Fizz"); 
+
+    // } 
+       // SE il numero è un multiplo di 5 stampo "Buzz"
+    // else if (multCinque) {
+    //     console.log(messaggio + "Buzz");
+
+    // } 
+       // ALTRIMENTI stampo i numeri normalmente
+    // else {
+    //     console.log(messaggio, i);
+    // }
 
     // SE il numero è un multiplo di 3 stampo "Fizz"
-    if (i % 3 === 0) {
-        console.log("il valore di i è: ", "Fizz")
+    if (multTre) {
+        // console.log(messaggio + "Fizz");
+        messaggio += "Fizz";
+    } 
+    // SE il numero è un multiplo di 5 stampo "Buzz"
+    if (multCinque) {
+        // console.log(messaggio + "Buzz");
+        messaggio += "Buzz"
+
+     // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
+
+     // ALTRIMENTI stampo i numeri normalmente
+    } else if (!multTre) {
+        messaggio += i;
     }
 
+    console.log(messaggio);
 }
     
-    // ALTRIMENTI SE il numero è un multiplo di 5 stampo "Buzz"
-    // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
-    // ALTRIMENTI stampo i numeri normalmente
+    
+    
+    
