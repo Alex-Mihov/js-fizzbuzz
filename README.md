@@ -15,3 +15,9 @@ Dopo esserci concentrati sul far funzionare le cose e averle testate,
 ragioniamo  sul possibile refactoring, quindi ottimizzazione possibile,
 sia del codice come performance, ma anche, se non soprattutto come leggibilità e mantenibilità. :genio_uomo:
 
+
+// stampiamo i valori da 1 a 100 
+    // SE il numero è un multiplo di 3 stampo "Fizz"
+    // ALTRIMENTI SE il numero è un multiplo di 5 stampo "Buzz"
+    // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
+    // ALTRIMENTI stampo i numeri normalmente
