@@ -23,7 +23,7 @@ for (let i = 1; i <= 100; i++) {
     messaggio = "il valore di i è: ";
     
     // if (multTre) {
-        // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
+        // SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
     //     if(multCinque) console.log(messaggio + "FizzBuzz"); 
         
         // SE il numero è un multiplo di 3 stampo "Fizz"
