@@ -22,24 +22,6 @@ for (let i = 1; i <= 100; i++) {
     multCinque = i % 5 === 0;
     messaggio = "il valore di i è: ";
     
-    // if (multTre) {
-        // SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
-    //     if(multCinque) console.log(messaggio + "FizzBuzz"); 
-        
-        //SE il numero è un multiplo di 3 stampo "Fizz"
-    //     else console.log(messaggio + "Fizz"); 
-
-    // } 
-       // SE il numero è un multiplo di 5 stampo "Buzz"
-    // else if (multCinque) {
-    //     console.log(messaggio + "Buzz");
-
-    // } 
-       // ALTRIMENTI stampo i numeri normalmente
-    // else {
-    //     console.log(messaggio, i);
-    // }
-
     
     // SE il numero è un multiplo di 3 stampo "Fizz"
     if (multTre) {
