@@ -26,7 +26,7 @@ for (let i = 1; i <= 100; i++) {
         // SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
     //     if(multCinque) console.log(messaggio + "FizzBuzz"); 
         
-        // SE il numero è un multiplo di 3 stampo "Fizz"
+        //SE il numero è un multiplo di 3 stampo "Fizz"
     //     else console.log(messaggio + "Fizz"); 
 
     // } 
@@ -40,21 +40,37 @@ for (let i = 1; i <= 100; i++) {
     //     console.log(messaggio, i);
     // }
 
-    // ALTRIMENTI SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
+    
     // SE il numero è un multiplo di 3 stampo "Fizz"
     if (multTre) {
-        // console.log(messaggio + "Fizz");
+        // allora stampo "Fizz"
         messaggio += "Fizz";
     } 
+    
+    // SE il numero è un multiplo di 3 e 5 stampo "FizzBuzz"
     // SE il numero è un multiplo di 5 stampo "Buzz"
     if (multCinque) {
-        // console.log(messaggio + "Buzz");
+        // allora stampo "Buzz"
         messaggio += "Buzz"
 
-     // ALTRIMENTI stampo i numeri normalmente
+    // ALTRIMENTI SE il numero non è un multiplo di 3 e 5 stampo stampo i numeri normalmente
     } else if (!multTre) {
+        // stampo numero normale
         messaggio += i;
     }
-
+    
+    // output numero in cosole
     console.log(messaggio);
+
+    // if (multTre && multCinque) {
+    //     messaggio += "FizzBuzz";
+    // } else if (multTre) {
+    //     messaggio += "Fizz";
+    // } else if (multCinque) {
+    //     messaggio += "Buzz";
+    // } else {
+    //     messaggio += i
+    // }
+
+    // console.log(messaggio);
 }
